@@ -3,12 +3,15 @@ import { VirtualTourPlugin } from '@photo-sphere-viewer/virtual-tour-plugin';
 import '@photo-sphere-viewer/core/index.css';
 import '@photo-sphere-viewer/virtual-tour-plugin/index.css';
 
+import salon from './assets/salon.jpg';
+import couloir from './assets/pano1.jpg';
+
 const baseUrl = 'https://photo-sphere-viewer-data.netlify.app/assets';
 
 const nodes = [
   {
     id: 'salon',
-    panorama: '/pano3.jpg',
+    panorama: salon,
     gps: [
       0, 0
     ],
@@ -17,17 +20,13 @@ const nodes = [
         nodeId: 'couloir',
         gps: [
           0, 1
-        ],
-        // position: {
-        //   textureX: 1000,
-        //   textureY: 200,
-        // }
+        ]
       }
     ]
   },
   {
     id: 'couloir',
-    panorama: '/pano1.jpg',
+    panorama: couloir,
     gps: [
       0, 1
     ],
@@ -36,11 +35,7 @@ const nodes = [
         nodeId: 'salon',
         gps: [
           0, 0
-        ],
-        // position: {
-        //   textureX: 100,
-        //   textureY: 20,
-        // }
+        ]
       }
     ]
   }
