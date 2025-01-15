@@ -3,6 +3,8 @@ import { VirtualTourPlugin } from '@photo-sphere-viewer/virtual-tour-plugin';
 import '@photo-sphere-viewer/core/index.css';
 import '@photo-sphere-viewer/virtual-tour-plugin/index.css';
 
+import './index.css';
+
 import salon from './assets/salon.jpg';
 import couloir from './assets/pano1.jpg';
 
