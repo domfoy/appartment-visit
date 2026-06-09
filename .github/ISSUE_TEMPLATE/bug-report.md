@@ -2,8 +2,7 @@
 name: Bug report
 about: Describe an unexpected behaviour
 title: 'BUG:'
-labels: ''
-assignees: ''
+PR: ''
 
 ---
 
